@@ -8,3 +8,4 @@ def display_board(board)
   puts separator
   puts "#{cell}#{pipe}#{cell}#{pipe}#{cell}"
 end
+display_board(board)
