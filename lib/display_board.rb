@@ -1,2 +1,11 @@
-# Define display_board that accepts a board and prints
-# out the current state.
+
+def display_board
+  cell = "   "
+  pipe = "|"
+  separator = "-----------"
+  puts "#{cell}#{pipe}#{cell}#{pipe}#{cell}"
+  puts separator
+  puts "#{cell}#{pipe}#{cell}#{pipe}#{cell}"
+  puts separator
+  puts "#{cell}#{pipe}#{cell}#{pipe}#{cell}"
+end
